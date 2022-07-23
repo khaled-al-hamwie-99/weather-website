@@ -1,4 +1,8 @@
 {
+  "name": "web-server",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "express": "^4.18.1",
     "hbs": "^4.2.0"
