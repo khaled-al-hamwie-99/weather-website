@@ -1,0 +1,41 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 0 10%;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: gray;
+    overflow: hidden;
+}
+
+.title {
+    height: 80vh;
+    font-size: 1.2rem;
+}
+
+.title div {
+    display: flex;
+    gap: 2rem;
+}
+
+.answers {
+    flex-direction: column;
+}
+
+.title a {
+    text-decoration: none;
+    color: blue;
+}
+
+.title a:hover {
+    color: goldenrod;
+}
+
+.title h1 {
+    font-size: 3.5rem;
+}

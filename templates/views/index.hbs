@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <script src="/js/app.js" defer></script>
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            {{>header}}
+            <br>
+            <form>
+                <label for="address">type your city</label><br>
+                <input type="text" name="address" id="city-weather-search" placeholder="Location">
+                <input id="s-btn" type="submit" value="Search">
+            </form>
+            <div class="answers">
+                <p class="m-1"></p>
+                <p class="m-2"></p>
+            </div>
+        </div>
+    {{>footer}}
+    </div>
+</body>
+
+</html>
